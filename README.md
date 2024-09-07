@@ -12,7 +12,8 @@
   - **Linode**
   - **vultr**
   - **And Other**
-
+  - 
+  - **Tested on Ubuntu 18, 20 and 22 operating systems**
 ##
 ## ⚜️Run AdsBlocker 
 
