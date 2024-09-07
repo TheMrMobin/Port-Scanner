@@ -6,25 +6,25 @@
 
 
 # Show banner at the start
-display_banner
+
 
 # Update package list
 echo "Updating package list..."
 sudo apt-get update
 # Clear screen and display banner
-display_banner
+
 
 # Install Python3 and pip if not installed
 echo "Installing Python3 and pip if they are not already installed..."
 sudo apt-get install -y python3 python3-pip
 # Clear screen and display banner
-display_banner
+
 
 # Install PrettyTable and tqdm using pip
 echo "Installing required Python packages (prettytable and tqdm)..."
 pip3 install prettytable tqdm
 # Clear screen and display banner
-display_banner
+
 
 # Find the directory containing PortScannerV2.py
 SCRIPT_DIR=$(dirname "$(realpath PortScannerV2.py)")
@@ -33,13 +33,13 @@ SCRIPT_DIR=$(dirname "$(realpath PortScannerV2.py)")
 echo "Making PortScannerV2.py executable..."
 chmod +x "$SCRIPT_DIR/PortScannerV2.py"
 # Clear screen and display banner
-display_banner
+
 
 # Navigate to the directory containing PortScannerV2.py
 echo "Navigating to $SCRIPT_DIR ..."
 cd "$SCRIPT_DIR"
 # Clear screen and display banner
-display_banner
+
 
 # Run PortScannerV2.py
 echo "Running PortScannerV2.py ..."
